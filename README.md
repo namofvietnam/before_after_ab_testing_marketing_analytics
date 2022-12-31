@@ -24,3 +24,4 @@ __Disclaimer:__ I have made every efforts to anonymize the company by removing t
 - Welch's test
 - Tukey's pairwise comparison
 - Games-Howell pairwise comparison
+- Stratified-sampling from one group based on the composition of another group
