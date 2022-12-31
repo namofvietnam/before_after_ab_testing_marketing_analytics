@@ -9,13 +9,13 @@ __Disclaimer:__ I have made every efforts to anonymize the company by removing t
 ### Files
 - Data
   - ab_testing_data.csv: the raw data from the company
-  - aggregated_ab_testing_data.csv: the aggregated data as part of data management and as used in visualization
+  - aggregated_ab_testing_data.csv: this file is not uploaded separately but embedded in the Tableau Workbook and documented in the Jupyter notebook
   - differenced_data.csv: the ultimate table view for difference-in-difference statistical analysis (also used in visualization)
 - Analytics:
   - difference_in_difference_ab_testing_python.ipynb: data management/manipulation and statistics (with pingouin package)
   - difference_in_difference_ab_testing_r.r: same statistics techniques in R (with car and onewaytests packages)
 - Visualization:
-  - controlled_before_after_visualization.twbx: Visualizations of metrics before and after between control and treatment groups
+  - controlled_before_after_visualization.twbx: Tableau visualizations of metrics before and after between control and treatment groups
 
 ### Techniques:
 - Aggregation and pivot table in Python
